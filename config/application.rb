@@ -16,6 +16,7 @@ module Firstwebsite
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
     #config.time_zone = 'Kolkata'
-    config.time_zone = 'Kolkata'
+    #config.time_zone = 'Kolkata'
+    config.time_zone = 'Asia/Kolkata'
   end
 end
