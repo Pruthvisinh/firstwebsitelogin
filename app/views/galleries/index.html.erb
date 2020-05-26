@@ -8,7 +8,7 @@
     <% @galleries.each_slice(4) do |image| %>
       <div class="row">
         <% image.each do |image| %>
-          <div class="col-lg-3 col-md-4 col-sm-1  justify-content-center align-items-center">
+          <div class="col-lg-3 col-md-4 col-sm-1  justify-content-center align-items-center mb-2">
             <img src="<%= image.image_url(:thumb) %>" class="rounded-circle img-fluid" alt="<%= image.name %>">
           </div>
         <% end %>
